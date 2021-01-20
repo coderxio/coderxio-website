@@ -34,7 +34,7 @@ remote_theme: pmarsceill/just-the-docs
 
 plugins:
   - jekyll-feed
-color_scheme: coderx
+#color_scheme: coderx
 
 # Set a path/url to a logo that will be displayed instead of the title
 logo: "/assets/images/coderxlogo.png"
