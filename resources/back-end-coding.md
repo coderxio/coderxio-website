@@ -1,11 +1,11 @@
 ---
 layout: default
-title: DailyMed
-parent: Guides
-nav_order: 1
+title: Back End Coding
+parent: Resources
+nav_order: 2
 ---
 
-# DailyMed Guide
+# Back End Coding Resources
 {: .no_toc }
 
 ## Table of contents

@@ -5,7 +5,7 @@ parent: Projects
 nav_order: 1
 ---
 
-# DailyMed API
+# DailyMed API Project
 {: .no_toc }
 
 ## Table of contents
@@ -17,3 +17,4 @@ nav_order: 1
 ---
 
 ## Getting started
+Check out the [GitHub repo](https://github.com/coderxio/dailymed-api) or join our [Slack channel](https://coderx.slack.com) to learn more.

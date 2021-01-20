@@ -11,13 +11,20 @@ permalink: /
 # Pharmacists who code
 {: .fs-9 }
 
-CodeRx is a collective of pharmacists and other healthcare professionals who also have a skill set in tech and apply it towards building potentially useful things.
+CodeRx is a collective of pharmacists and other healthcare professionals who have a skill set in tech and apply it towards building useful things.
 {: .fs-6 .fw-300 }
 
 [Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View on GitHub](https://github.com/coderxio){: .btn .fs-5 .mb-4 .mb-md-0 }
 ---
 
 ## Getting started
+Check out the [GitHub repo](https://github.com/coderxio) or join our [Slack channel](https://coderx.slack.com) to learn more.
+
+## Projects
+<ul>
+   <li><a href="/projects/dailymed-api">DailyMed API</a></li>
+   <li><a href="/projects/dailymed-ui">DailyMed UI</a></li>
+</ul>
 
 ## Posts
 <ul class="posts">

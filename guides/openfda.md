@@ -1,11 +1,11 @@
 ---
 layout: default
-title: DailyMed
+title: OpenFDA
 parent: Guides
-nav_order: 1
+nav_order: 3
 ---
 
-# DailyMed Guide
+# OpenFDA Guide
 {: .no_toc }
 
 ## Table of contents

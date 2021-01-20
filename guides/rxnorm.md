@@ -1,11 +1,11 @@
 ---
 layout: default
-title: DailyMed
+title: RxNorm
 parent: Guides
-nav_order: 1
+nav_order: 2
 ---
 
-# DailyMed Guide
+# RxNorm Guide
 {: .no_toc }
 
 ## Table of contents

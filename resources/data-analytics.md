@@ -1,11 +1,11 @@
 ---
 layout: default
-title: DailyMed
-parent: Guides
-nav_order: 1
+title: Data Analytics
+parent: Resources
+nav_order: 3
 ---
 
-# DailyMed Guide
+# Data Analytics Resources
 {: .no_toc }
 
 ## Table of contents

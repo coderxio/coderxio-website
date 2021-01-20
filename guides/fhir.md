@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Coding
-parent: Resources
-nav_order: 1
+title: FHIR
+parent: Guides
+nav_order: 4
 ---
 
-# Coding
+# FHIR Guide
 {: .no_toc }
 
 ## Table of contents
