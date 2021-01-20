@@ -29,7 +29,10 @@ url: "https://coderx.io" # the base hostname & protocol for your site, e.g. http
 twitter_username: jekyllrb
 github_username:  coderxio
 
+permalink: pretty
+
 # Build settings
+theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
 color_scheme: light
 
