@@ -30,7 +30,6 @@ twitter_username: jekyllrb
 github_username:  coderxio
 
 # Build settings
-remote_theme: pmarsceill/just-the-docs
 theme: just-the-docs
 
 plugins:
