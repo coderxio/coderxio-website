@@ -2,7 +2,6 @@
 layout: page
 title: Posts
 nav_order: 6
-permalink: /posts/
 ---
 
 # Posts

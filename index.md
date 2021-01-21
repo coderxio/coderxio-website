@@ -18,7 +18,7 @@ CodeRx is a collective of pharmacists and other healthcare professionals who hav
 ---
 
 ## Getting started
-Check out the [GitHub repo](https://github.com/coderxio) or join our [Slack channel](https://coderx.slack.com) to learn more.
+Check out our [GitHub repos](https://github.com/coderxio) or join our [Slack channel](https://coderx.slack.com) to learn more.
 
 ## Projects
 <ul>

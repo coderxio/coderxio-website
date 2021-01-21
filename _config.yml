@@ -27,10 +27,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://coderx.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  coderxio
 
-permalink: pretty
+permalink: /:categories/:year/:month/:day/:title
 
 # Build settings
-theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
 color_scheme: coderx
 
