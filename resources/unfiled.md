@@ -23,6 +23,8 @@ OpenFDA
 
 <https://open.fda.gov/apis/openfda-fields/>
 
+<https://labels.fda.gov/>
+
 Design
 ------
 

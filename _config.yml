@@ -31,7 +31,7 @@ permalink: /:categories/:year/:month/:day/:title
 
 # Build settings
 remote_theme: pmarsceill/just-the-docs
-color_scheme: coderx
+color_scheme: coderx-light
 
 plugins:
   - jekyll-feed
