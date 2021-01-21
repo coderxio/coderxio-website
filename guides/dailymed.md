@@ -107,13 +107,13 @@ Two different formats are provided depending on whether you want to stay on top 
     * Animal labels
     * Remainder labels
 
-## Mapping files
+### Mapping files
 [Mapping file downloads](https://dailymed.nlm.nih.gov/dailymed/spl-resources-all-mapping-files.cfm) are available in zip file format.
 * SPL-RxNorm
 * SPL-pharmacologic class
 * Zip file metadata
 
-## Indexing and REMS files
+### Indexing and REMS files
 [Indexing and REMS file downloads](https://dailymed.nlm.nih.gov/dailymed/spl-resources-all-indexing-files.cfm) are available in zip file format.
 * Billing unit
 * Biologic or drug substance
