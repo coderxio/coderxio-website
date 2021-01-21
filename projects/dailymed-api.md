@@ -1,6 +1,7 @@
 ---
 layout: default
-title: DailyMed API
+title: DailyMed API Project
+description: An open source project to add valuable API endpoints to DailyMed's existing API offerings.
 parent: Projects
 nav_order: 1
 ---
