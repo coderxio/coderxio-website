@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Data Analytics
+title: Coding
 parent: Resources
-nav_order: 3
+nav_order: 1
 ---
 
-# Data Analytics Resources
+# Coding Resources
 {: .no_toc }
 
 ## Table of contents
@@ -16,4 +16,6 @@ nav_order: 3
 
 ---
 
-## Getting started
+## Front-end coding
+
+## Back-end coding
