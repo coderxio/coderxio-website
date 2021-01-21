@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Unfiled
+title: Unfiled Resources
+description: Resources that haven't been filed away into a more specific section.
 parent: Resources
 nav_order: 3
 ---

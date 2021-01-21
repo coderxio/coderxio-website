@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Guides
+description: A few guides to make it easier to get started with some of the more common medication-related resources available.
 nav_order: 4
 has_children: true
 permalink: /guides

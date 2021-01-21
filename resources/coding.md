@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Coding
+title: Coding Resources
+description: Resources curated for coding in general, and also as it relates to health tech.
 parent: Resources
 nav_order: 1
 ---

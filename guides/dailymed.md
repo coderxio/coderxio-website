@@ -1,6 +1,7 @@
 ---
 layout: default
-title: DailyMed
+title: DailyMed Guide
+description: A guide to using DailyMed as a data source for drug label information.
 parent: Guides
 nav_order: 1
 ---

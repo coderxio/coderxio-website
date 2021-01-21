@@ -1,6 +1,7 @@
 ---
 layout: default
-title: RxNorm
+title: RxNorm Guide
+description: A guide to using RxNorm as a data source for drug information.
 parent: Guides
 nav_order: 2
 ---

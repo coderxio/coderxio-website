@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Data
+title: Data Resources
+description: Resources curated for data in general, and also as it relates to health tech.
 parent: Resources
 nav_order: 2
 ---
