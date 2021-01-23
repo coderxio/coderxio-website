@@ -7,7 +7,7 @@ categories: rxnorm
 tags: rxnorm api python
 published: true
 ---
-![meme](https://raw.githubusercontent.com/coderxio/coderxio.github.io/master/assets/img/noone-meme.jpg)
+![meme](/assets/images/noone-meme.jpg)
 
 I am sharing this because I jokingly told someone on a pharmacist Slack channel that it would be a good idea for a valuable, worthwhile pharmacy informatics resident project to sort all medications based on number of vowels and they took me seriously. I felt bad because I didn't want to waste that resident's time.  Obviously there is zero face value in this type of list, but part of me still thought it was kind of a good exercise to get familiar with the RxNorm APIs and some basic Python sorting and CSV exporting functionality. So, as a sort of penance, I wrote the script myself.
 
@@ -18,7 +18,7 @@ RxNorm has a ["Prescribable" API endpoint](https://rxnav.nlm.nih.gov/Prescribabl
 
 As a "tiebreaker" (if two meds have the same number of vowels), I chose to do a secondary sort based on the number of letters in the word (or the length of the "string" in programming lingo). Then, once I sorted the list, I output the list in CSV so I could play around with it. You can open the CSV in Excel and filter out any of the TTYs you don't care about (i.e. if you only care about brand name drugs).
 
-Here's a link to the CSV (if you want to download it, click "Raw" and then right click and click "Save as": [vowels.csv](https://github.com/coderxio/coderxio.github.io/blob/master/assets/data/vowels.csv)
+Here's a link to the CSV: [vowels.csv](/assets/data/vowels.csv)
 
 In case you're wondering, the top meds in each category are:
 - IN with 46 vowels and 147 letters (RXCUI = 2392632) - sodium 2-acrylamido-2-methyl-1-propane sulfonate/sodium acrylate/n-isopropylacrylamide/trimethyl(3-methacrylamidopropyl)ammonium chloride copolymer

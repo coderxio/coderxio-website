@@ -47,7 +47,7 @@ Great - so DailyMed is awesome and already has an API.  So are we done here?
 
 Not quite. You may notice, for instance that the API above provides `active_ingredients` but does not provide `inactive_ingredients`. However, [DailyMed's website](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be) clearly contains this information. This may be good enough for us humans... but computers need this to look more like the format above.
 
-![Revlimid inactive ingredients](https://raw.githubusercontent.com/coderxio/coderxio.github.io/master/assets/img/revlimid-inactive-ingredients.png)
+![Revlimid inactive ingredients](/assets/images/revlimid-inactive-ingredients.png)
 
 One thing I haven't mentioned is that DailyMed also provides the ability to download every single product label in [XML](https://en.wikipedia.org/wiki/XML).  If we were to download the specific XML file for this specific Revlimid label on the [DailyMed drug label download page](https://dailymed.nlm.nih.gov/dailymed/spl-resources-all-drug-labels.cfm), and then find the specific section within the 9530 lines of XML that contains inactive ingredient information, it would look like the code below. You may notice some similarities between the picture of the table on the website and the structure of the XML - look for the inactive ingredient names in both.
 
