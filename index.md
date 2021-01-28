@@ -18,17 +18,26 @@ CodeRx is a collective of pharmacists and other healthcare professionals who hav
 ---
 
 ## Getting started
-Check out our [GitHub repos](https://github.com/coderxio) or join our [Slack channel](https://coderx.slack.com) to learn more.
+We are currently working on several open source [projects](/projects), creating [guides](/guides) to some common sources of health tech data, terminologies, and frameworks, compiling [resources](/resources) for different areas of tech in general and health tech specifically, and publishing [posts](/posts) about topics relating to pharmacy and technology.
+
+Check out our [GitHub repos](https://github.com/coderxio), join our [Slack channel](https://coderx.slack.com), or stop by our [about](/about) page to learn more and get involved.
+
+Have a question?  Just shoot us an [email](mailto:info@coderx.io).
 
 ## Projects
-<ul>
-   <li><a href="/projects/dailymed-api">DailyMed API</a></li>
-   <li><a href="/projects/dailymed-ui">DailyMed UI</a></li>
-</ul>
+* [DailyMed API Project](/projects/dailymed-api)
+* [DailyMed UI Project](/projects/dailymed-ui)
+* [OpenFDA Project](/projects/openfda)
+
+## Guides
+* [DailyMed Guide](/guides/dailymed)
+
+## Resources
+* [General Resources](/resources/general)
 
 ## Posts
 <ul class="posts">
    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
    {% endfor %}
 </ul>

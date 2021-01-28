@@ -8,6 +8,8 @@ nav_order: 1
 
 # DailyMed API Project
 {: .no_toc }
+A supplemental REST API for DailyMed SPLs.
+{: .fs-6 .fw-300 }
 
 ## Table of contents
 {: .no_toc .text-delta }

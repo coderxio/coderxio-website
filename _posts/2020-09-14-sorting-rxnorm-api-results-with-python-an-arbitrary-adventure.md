@@ -87,4 +87,6 @@ with open('vowels.csv', 'w', newline='') as csvfile:
         writer.writerow(med)
 ```
 
+---
+
 **CodeRx** is a collective of pharmacists and other healthcare professionals that have an interest, skill set, or passion in coding, data, or tech. Working on this project is the first of hopefully many projects where we can apply our knowledge towards something potentially cool and useful - and give others exposure to and experience with the techy side of healthcare along the way. If you're interested at all, follow along at [CodeRx.io](https://coderx.io/), check out our [GitHub repo](https://github.com/coderxio/dailymed-api), or join our [Slack channel](https://coderx.slack.com/).

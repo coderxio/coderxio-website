@@ -8,6 +8,8 @@ nav_order: 2
 
 # DailyMed UI Project
 {: .no_toc }
+A UI for our novel DailyMed API.
+{: .fs-6 .fw-300 }
 
 ## Table of contents
 {: .no_toc .text-delta }

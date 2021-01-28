@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Unfiled Resources
+title: General Resources
 description: Resources that haven't been filed away into a more specific section.
 parent: Resources
 nav_order: 3
 ---
 
-# Unfiled Resources
+# General Resources
 {: .no_toc }
 
 ## Table of contents

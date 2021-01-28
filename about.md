@@ -8,5 +8,8 @@ nav_order: 2
 
 CodeRx is a collective of pharmacists and other healthcare professionals who have a skill set in tech and apply it towards building useful things.
 
-# Contributing members
+## Contributing members
 See a list of contributing members at our [GitHub members page](https://github.com/orgs/coderxio/people).
+
+## Community members
+To meet our community members, join our [Slack channel](https://coderx.slack.com).

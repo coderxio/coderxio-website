@@ -105,4 +105,6 @@ And finally, we need to look at all the files within each of those zip files and
 
 This script takes only a minute or two to run (even on my ancient pharmacy school issued laptop from 2006 that I use as a development server) and outputs a folder with all the XML files we need to work with for each zip file in the DailyMed full release. All with zero clicks.
 
+---
+
 **CodeRx** is a collective of pharmacists and other healthcare professionals that have an interest, skill set, or passion in coding, data, or tech. Working on this project is the first of hopefully many projects where we can apply our knowledge towards something potentially cool and useful - and give others exposure to and experience with the techy side of healthcare along the way. If you're interested at all, follow along at [CodeRx.io](https://coderx.io/), check out our [GitHub repo](https://github.com/coderxio/dailymed-api), or join our [Slack channel](https://coderx.slack.com/).
