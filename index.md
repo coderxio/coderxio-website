@@ -37,7 +37,17 @@ Have a question?  Just shoot us an [email](mailto:info@coderx.io).
 
 ## Posts
 <ul class="posts">
+   {% assign today = site.time | date: '%s' %}
    {% for post in site.posts %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% assign start = post.date | date: '%s' %}
+      {% assign secondsSince = today | minus: start %}
+      {% assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60 %}
+      {% assign daysSince = hoursSince | divided_by: 24 %}
+      <li>
+         <a href="{{ post.url }}">{{ post.title }}</a>
+         {% if daysSince <= 10 %}
+            <span class="label label-green v-align-top">NEW</span>
+         {% endif %}   
+      </li>
    {% endfor %}
 </ul>

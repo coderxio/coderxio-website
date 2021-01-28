@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  Modernizing pharmacy drug procurement with APIs
-author: Kent Bridgeman and Joey LeGrand
+author: Kent Bridgeman, Joey LeGrand, and David Berkowitz
 description: What would a world look like if modern API technology was applied to pharmacy drug procurement?  We’re glad you asked.  We put together some before and after workflow diagrams of what the current process is and how it could be improved with APIs.
 image: /assets/images/drug-procurement-header.jpg
-date:   2021-01-25 05:30:00 -0600
-categories: drug-procurement
-tags: edi api wholesaler inventory shortage
+date:   2021-01-28 06:00:00 -0600
+categories: supply-chain
+tags: edi api wholesaler inventory shortage pharmacy
 published: true
 ---
 
@@ -20,7 +20,7 @@ APIs are built on a standardized foundation of requests and responses about the 
 
 So what do pharmacies use?  Currently, the main way drugs are purchased by pharmacies from wholesalers is through a method called **electronic data interface (EDI)**.  If we think of an API like a phone conversation, EDI is more like sending a fax.  A key difference is that EDI is a one-way message with typically no automatic response.  Another key difference is that while an API request and the object the request is about are bound together, an EDI is just a message with no real association to the objects referred to within the message.  In other words, the EDI itself does not know anything about the product you are ordering, but an API would have access to all the available details about that product due to tight integration with the data model.
 
-What would a world look like if modern API technology was applied to pharmacy drug procurement?  We’re glad you asked.  We put together some before and after workflow diagrams of what the current process is and how it could be improved with APIs.  Long story short, there could be a lot less time spent by a buyer doing manual work interacting with various systems, automatics substitutions for products on drug shortage, and possibly even lower costs.
+What would a world look like if modern API technology was applied to pharmacy drug procurement?  We’re glad you asked.  We put together some before and after workflow diagrams of what the current process is and how it could be improved with APIs.  Long story short, there could be a lot less time spent by a buyer doing manual work interacting with various systems, automatic substitutions for products on drug shortage, and possibly even lower costs.
 
 ## Definitions
 
@@ -48,17 +48,17 @@ This is a rough estimate of how pharmacy buyers currently go through a normal or
 
 ![Drug procurement current state with EDI diagram](/assets/images/drug-procurement-current-state-edi.jpg)
 
-*   Inventory system automatically generates a purchase order (PO) based on current on-hand quantity of products with specific national drug codes (NDCs) and defined minimum quantity of product needed on hand (also known as PAR)
-*   Buyer reviews the automatically generated PO within inventory system and submits to wholesaler system (EDI 850)
-*   Buyer logs in to wholesaler web portal to verify PO was received and information is accurate
-*   Buyer places PO to wholesaler
-*   In the event of a shortage, some NDCs will not be fulfilled by the wholesaler when the order is received and the invoice is available a day or more later
-*   Buyer logs back into wholesaler web portal to search for therapeutically and operationally (i.e. same volume for mixtures) equivalent NDC with stock at the distribution center (DC) - potentially multiple times throughout the day if all equivalent NDCs are out of stock
-    *   Local inventory system typically has built in mapping to know what products would be equivalent; however, these systems aren’t typically interfaced with the wholesaler
-    *   Instead of utilizing the separate systems, buyer typically just has to know which products are equivalent and manually search by keyword or NDC to find them on wholesaler website
-*   Buyer eventually finds equivalent NDC with stock listed as available at DC, and submits second order
-*   Another day later (or more if the previous steps have to be repeated more than once), when the new NDC finally arrives, the NDC that was originally on shortage still shows up as below minimum quantity in inventory system, which means the following day it will show up again on the automatically generated PO from the inventory system
-*   Buyer updates preferred NDC in inventory system so that original NDC is not automatically added to generated PO the following day (since it is on shortage)
+1. Inventory system automatically generates a purchase order (PO) based on current on-hand quantity of products with specific national drug codes (NDCs) and defined minimum quantity of product needed on hand (also known as PAR)
+2. Buyer reviews the automatically generated PO within inventory system and submits to wholesaler system (EDI 850)
+3. Buyer logs in to wholesaler web portal to verify PO was received and information is accurate
+4. Buyer places PO to wholesaler
+5. In the event of a shortage, some NDCs will not be fulfilled by the wholesaler when the order is received and the invoice is available a day or more later
+6. Buyer logs back into wholesaler web portal to search for therapeutically and operationally (i.e. same volume for mixtures) equivalent NDC with stock at the distribution center (DC) - potentially multiple times throughout the day if all equivalent NDCs are out of stock
+    * Local inventory system typically has built in mapping to know what products would be equivalent; however, these systems aren’t typically interfaced with the wholesaler
+    * Instead of utilizing the separate systems, buyer typically just has to know which products are equivalent and manually search by keyword or NDC to find them on wholesaler website
+7. Buyer eventually finds equivalent NDC with stock listed as available at DC, and submits second order
+8. Another day later (or more if the previous steps have to be repeated more than once), when the new NDC finally arrives, the NDC that was originally on shortage still shows up as below minimum quantity in inventory system, which means the following day it will show up again on the automatically generated PO from the inventory system
+9. Buyer updates preferred NDC in inventory system so that original NDC is not automatically added to generated PO the following day (since it is on shortage)
 
 ## Future state workflow with API
 
@@ -66,19 +66,19 @@ Taking the same scenario as above (at least one product is unavailable or on dru
 
 ![Drug procurement future state with API diagram](/assets/images/drug-procurement-future-state-api.jpg)
 
-*   Inventory system automatically generates a list based on current on-hand quantity of products with specific national drug codes (NDCs) and defined minimum quantity of product needed on hand (also known as PAR)
-*   Inventory system makes GET request to wholesaler via API, which would return the following information from the manufacturer:
-    *   Distribution center (DC) inventory count for each NDC
-    *   Current pricing information for each NDC
-*   For any NDC returned with zero (or very low) inventory count, the inventory system would check its own already existing database for all equivalent NDCs, and make another GET request to wholesaler via API for that entire list of equivalent NDCs
-    *   The inventory system could be configured to periodically make this GET call multiple times a day to monitor inventory availability in the DC throughout the day and notify buyer if an NDC becomes available
-*   Now the list of NDCs in our order is completely comprised of either:
-    *   Preferred NDCs with stock at the DC
-    *   For any NDCs unavailable or on shortage, a list of alternate NDCs with pricing and inventory information for the buyer to review and quickly select
-    *   For any NDCs with no available alternatives, a reliable indicator that the buyer will need to find that product elsewhere
-*   Based on the response to the initial GET request, the inventory system knows that the original NDC is on shortage and replaces preferred NDC (with a flag for buyer approval)
-*   Buyer reviews all changes in one sitting and submits order to wholesaler via a POST request on the API, which contains at minimum the NDCs and order quantities
-*   Buyer receives nearly instantaneous response back from wholesaler via API acknowledging receipt and confirmation of order
+1. Inventory system automatically generates a list based on current on-hand quantity of products with specific national drug codes (NDCs) and defined minimum quantity of product needed on hand (also known as PAR)
+2. Inventory system makes GET request to wholesaler via API, which would return the following information from the manufacturer:
+    * Distribution center (DC) inventory count for each NDC
+    * Current pricing information for each NDC
+3. For any NDC returned with zero (or very low) inventory count, the inventory system would check its own already existing database for all equivalent NDCs, and make another GET request to wholesaler via API for that entire list of equivalent NDCs
+    * The inventory system could be configured to periodically make this GET call multiple times a day to monitor inventory availability in the DC throughout the day and notify buyer if an NDC becomes available
+4. Now the list of NDCs in our order is completely comprised of either:
+    * Preferred NDCs with stock at the DC
+    * For any NDCs unavailable or on shortage, a list of alternate NDCs with pricing and inventory information for the buyer to review and quickly select
+    * For any NDCs with no available alternatives, a reliable indicator that the buyer will need to find that product elsewhere
+5. Based on the response to the initial GET request, the inventory system knows that the original NDC is on shortage and replaces preferred NDC (with a flag for buyer approval)
+6. Buyer reviews all changes in one sitting and submits order to wholesaler via a POST request on the API, which contains at minimum the NDCs and order quantities
+7. Buyer receives nearly instantaneous response back from wholesaler via API acknowledging receipt and confirmation of order
 
 ## Future state workflow with multiple APIs
 
