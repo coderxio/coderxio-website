@@ -28,6 +28,8 @@ In this course, you will learn the following:
 - How to host free websites with GitHub Pages
 - How to make a copy of a CV website template and customize it
 
+See a [live demo](https://jrlegrand.github.io/online-cv/) of the finished product.
+
 We won't get into the basics of GitHub (clone, push, pull, etc), but there are definitely [guides for that](https://guides.github.com/activities/hello-world/).
 
 At the end of the course, you will have a professional, clean, responsive (looks good on mobile devices) online CV like the one above which you can show off and even keep tinkering with if you want.
