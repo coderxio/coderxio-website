@@ -267,4 +267,4 @@ chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't wa
 
 ## Conclusion
 
-Congrats!!!  You've made it through your first CodeRx course and have a GitHub profile and a free online CV to show for it.  Please follow us on [LinkedIn](https://www.linkedin.com/company/coderx) and [GitHub](https://github.com/coderxio).  Also please share the signup link to this course with anyone you think might find this useful!  Thank you for taking the time to work on this, and enjoy your new online CV!
+Congrats!!!  You've made it through your first CodeRx course and have a GitHub profile and a free online CV to show for it.  Please follow us on [LinkedIn](https://www.linkedin.com/company/coderx), [Twitter](https://twitter.com/coderx_io), [Instagram](https://www.instagram.com/coderx_io/), and [GitHub](https://github.com/coderxio).  Also please [share the signup link](https://mailchi.mp/ac1988c7d7f4/trujlqmy5g) to this course with anyone you think might find this useful!  Thank you for taking the time to work on this, and enjoy your new online CV!
