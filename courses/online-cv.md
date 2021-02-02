@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Create a free online CV with GitHub Pages
-description: Get set up with GitHub and create a free, customized online CV to host your accomplishments and show off your technical skills (1 hour).
+description: Get set up with GitHub and create a free, customized online CV to host your accomplishments and show off your technical skills (1-2 hours).
+image: /assets/images/online-cv-image.png
 parent: Courses
 nav_order: 1
 permalink: /courses/3kdf8dlz93l3jf9zla9fjds03jf2a
@@ -20,11 +21,20 @@ permalink: /courses/3kdf8dlz93l3jf9zla9fjds03jf2a
 
 ## Getting started
 
-In this course, you will learn the following
+![Online CV image](/assets/images/online-cv-image.png)
+
+In this course, you will learn the following:
+- How to create a GitHub account, and why it is useful
+- How to host free websites with GitHub Pages
+- How to make a copy of a CV website template and customize it
+
+We won't get into the basics of GitHub (clone, push, pull, etc), but there are definitely [guides for that](https://guides.github.com/activities/hello-world/).
+
+At the end of the course, you will have a professional, clean, responsive (looks good on mobile devices) online CV like the one above which you can show off and even keep tinkering with if you want.
 
 ## Create a GitHub account
 
-A GitHub account is the starting point of learning to code, and is a great way to showcase the work you are doing on any projects.  In this case, the reason we are creating a GitHub account is to use an amazing service called [GitHub Pages](https://pages.github.com/), which allows you to create and host websites for free.
+A GitHub account is the starting point of learning to code, and is a great way to showcase the work you are doing on any projects.  It is also one of the best ways to collaborate with others on coding projects and keep track of changes to your own code. In this case, the reason we are creating a GitHub account is to use an amazing service called [GitHub Pages](https://pages.github.com/), which allows you to create and host websites for free.
 
 1. Go to [github.com](https://github.com/) and click **Sign up** in the top right corner.
     - Enter a username, email, and password
@@ -53,9 +63,9 @@ The free basic website template we are going to use currently has all of its cod
 1. **Bonus points:** If you prefer your CV to be hosted at `<your-username>.github.io` as opposed to `<your-username>.github.io/online-cv`, you can change your repository name to `<your-username>.github.io`.  So for my example, I would set my repository name to `coderx-test.github.io`.  Or if you wanted this to be called a `resume` instead of an `online-cv`, you can change the repository name to `resume` and then it will be hosted at `<your-username>.github.io/resume`.  For the purposes of this course, I am going to leave mine as `online-cv`.
 1. 🎉 Congrats! You have hosted your first GitHub Pages website for free!  Now it's time to customize it and make it your own.
 
-## Customize your website
+## Personalize your website
 
-### Getting started
+### First steps
 
 1. To get back to your main repository page, click the **Code** button near the top left of the screen.
 1. Almost all of the work we need to do is in the `_data/data.yml` file, so first click on the `_data` folder, and then click on the `data.yml` file.
@@ -181,3 +191,78 @@ education:
           - Bullet point
           - Bullet point
 ```
+### Edit photo and favicon
+
+1. Find a square photo of yourself at least 100x100 pixels in size.
+  - *Hint: You can right-click your LinkedIn photo and "Save image as..."*
+1. If you want to change your favicon (the little image that shows up in your tabs), [generate your own](https://favicon.io/) or find one you like somewhere else.
+  - *Hint: You can typically find other websites' favicons by adding "/favicon.ico" to the end of their url.  Here's the favicon for [GitHub](https://github.com/favicon.ico)*
+1. Go back to your main repository page (click the **Code** link in the top left).
+1. If you are changing your favicon: from the main repository page, click **Add file** -> **Upload files** and find the favicon to upload.  Click **Commit changes**.
+![Add file button](/assets/images/add-file.png)
+1. To change your image, navigate from the main repository page to `/assets/images`.  Repeat the steps above with your image.
+  - Take note of your image name
+1. If your image name is different from `profile.png`, go back to the `/_data/data.yml` file and change the line below to match the file name of your image:
+
+```yaml
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+```
+
+## Other customizations
+
+### Theme color, title, and description
+
+1. In your main repository page, edit `_config.yml`
+1. I would recommend changing `title`, `url`, `baseurl` (if you changed from `online-cv`), `description`, and `theme_skin`.
+1. Remember to **Commit changes** when you are done.
+
+```yaml
+# Site Settings
+title: My Resume
+url: 'http://webjeda.com'
+baseurl: '/online-cv' #change it according to your repository name
+description: A beautiful Jekyll theme for creating resume
+# Style will be applied only after restarting the build or serve. Just choose one of the options.
+theme_skin: blue # blue turquoise green berry orange ceramic
+chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
+```
+
+### Experience vs experiences
+
+1. It bugged me that the heading for job experience was plural.  Because we have total control over how things work in our CV, we can change it (if it bothers you)!
+1. From your main repository page, navigate to `/includes/experiences.html` and edit this file.
+1. Towards the end of the first block of code (pasted below), change "Experiences" to "Experience" or whatever you want to call it.
+1. Remember to **Commit changes** when you are done.
+
+```yaml
+<section class="section experiences-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
+    </span>
+    Experiences
+  </h2>
+```
+
+### Fix header height on mobile
+
+1. I noticed the header of the sidebar was too tall on mobile devices.  If you notice this, follow the steps below.
+1. From your main repository page, navigate to `/_sass/_base.scss` and edit this file.
+1. Around line 39, you should see a `.sidebar-wrapper` section.  To fix the issue, delete the line in this section that says `min-height: 800px;`
+1. Remember to **Commit changes** when you are done.
+
+```yaml
+.sidebar-wrapper {
+    background: $theme-color;
+    position: absolute;
+    right: 0;
+    width: 280px;
+    height: 100%;
+    min-height: 800px;
+    color: #fff;
+```
+
+## Conclusion
+
+Congrats!!!  You've made it through your first CodeRx course and have a GitHub profile and a free online CV to show for it.  Please follow us on [LinkedIn](https://www.linkedin.com/company/coderx) and [GitHub](https://github.com/coderxio).  Also please share the signup link to this course with anyone you think might find this useful!  Thank you for taking the time to work on this, and enjoy your new online CV!
