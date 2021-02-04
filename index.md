@@ -18,6 +18,8 @@ CodeRx is a collective of pharmacists and other healthcare professionals who hav
 ---
 
 ## Getting started
+[Subscribe](https://mailchi.mp/ac1988c7d7f4/trujlqmy5g) to our mailing list and get a [free CodeRx course](https://mailchi.mp/ac1988c7d7f4/trujlqmy5g) on a beginner's guide to creating and hosting an online CV with GitHub.
+
 We are currently working on several open source [projects](/projects), creating [guides](/guides) to some common sources of health tech data, terminologies, and frameworks, compiling [resources](/resources) for different areas of tech in general and health tech specifically, and publishing [posts](/posts) about topics relating to pharmacy and technology.
 
 Check out our [GitHub repos](https://github.com/coderxio), join our [Slack channel](https://coderx.slack.com), or stop by our [about](/about) page to learn more and get involved.
