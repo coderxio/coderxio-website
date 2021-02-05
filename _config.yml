@@ -41,8 +41,8 @@ logo: "/assets/images/coderxlogo.png"
 
 # Aux links for the upper right navigation
 aux_links:
-  "GitHub":
-    - "//github.com/coderxio"
+  "LinkedIn":
+    - "//linkedin.com/company/coderx"
   "Slack":
     - "//join.slack.com/t/coderx/shared_invite/zt-5b8e9kr4-PsKAVe4crGmECQyyxDIJgQ"
 
