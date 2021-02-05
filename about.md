@@ -12,4 +12,4 @@ CodeRx is a collective of pharmacists and other healthcare professionals who hav
 See a list of contributing members at our [GitHub members page](https://github.com/orgs/coderxio/people).
 
 ## Community members
-To meet our community members, join our [Slack channel](https://coderx.slack.com).
+To meet our community members, join our [Slack channel](https://join.slack.com/t/coderx/shared_invite/zt-5b8e9kr4-PsKAVe4crGmECQyyxDIJgQ).

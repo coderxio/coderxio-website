@@ -294,7 +294,7 @@ Google
 Random
 ------
 
-<https://coderx.slack.com/archives/CBPFWFPT8/p1602772448041100>
+<https://join.slack.com/t/coderx/shared_invite/zt-5b8e9kr4-PsKAVe4crGmECQyyxDIJgQarchives/CBPFWFPT8/p1602772448041100>
 
 <https://www.youtube.com/watch?v=SsoOG6ZeyUI&ab_channel=freakpants> - tabs vs spaces
 

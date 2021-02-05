@@ -20,4 +20,4 @@ A UI for our novel DailyMed API.
 ---
 
 ## Getting started
-Check out the [GitHub repo](https://github.com/coderxio/dailymed-ui) or join our [Slack channel](https://coderx.slack.com) to learn more.
+Check out the [GitHub repo](https://github.com/coderxio/dailymed-ui) or join our [Slack channel](https://join.slack.com/t/coderx/shared_invite/zt-5b8e9kr4-PsKAVe4crGmECQyyxDIJgQ) to learn more.

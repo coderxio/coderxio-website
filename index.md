@@ -22,7 +22,7 @@ CodeRx is a collective of pharmacists and other healthcare professionals who hav
 
 We are currently working on several open source [projects](/projects), creating [guides](/guides) to some common sources of health tech data, terminologies, and frameworks, compiling [resources](/resources) for different areas of tech in general and health tech specifically, and publishing [posts](/posts) about topics relating to pharmacy and technology.
 
-Check out our [GitHub repos](https://github.com/coderxio), join our [Slack channel](https://coderx.slack.com), or stop by our [about](/about) page to learn more and get involved.
+Check out our [GitHub repos](https://github.com/coderxio), join our [Slack channel](https://join.slack.com/t/coderx/shared_invite/zt-5b8e9kr4-PsKAVe4crGmECQyyxDIJgQ), or stop by our [about](/about) page to learn more and get involved.
 
 Have a question?  Just shoot us an [email](mailto:info@coderx.io).
 
