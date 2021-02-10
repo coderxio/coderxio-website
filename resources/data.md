@@ -19,7 +19,7 @@ nav_order: 2
 
 {% assign resources = site.data.resources | where: 'page', 'Data' | sort: 'category' %}
 {% assign categories = resources | map: 'category' | uniq | sort_natural %}
-
+ 
 <div>
 {% for category in categories %}
 ## {{ category }}

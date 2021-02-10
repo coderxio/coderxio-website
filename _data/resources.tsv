@@ -121,3 +121,10 @@ Coding	R	Utilities	ndc_map	https://github.com/fabkury/ndc_map	"This script provi
 Health Tech	Drug information	FDA	National Drug Code Directory	https://www.accessdata.fda.gov/scripts/cder/ndc/index.cfm				
 Data	Notebooks	JavaScript	Observable	https://observablehq.com/product	"Explore and visualize data. Share and publish your insights. Discover and be inspired."
 Data	Notebooks	General	Deep Note	https://deepnote.com/	"Deepnote is a new kind of data science notebook. Jupyter-compatible with real-time collaboration and running in the cloud. Oh, and it's free."			
+Data	Databases	Graph	ArangoDB	https://www.arangodb.com/	"Natively store data for graph, document and search needs. Utilize feature-rich access with one query language."
+Data	Databases	Graph	Amazon Neptune	https://aws.amazon.com/neptune/	"Amazon Neptune is a fast, reliable, fully managed graph database service that makes it easy to build and run applications that work with highly connected datasets."
+Data	Databases	Graph	Dgraph	https://dgraph.io/	"Dedicated, multi-zone clusters on AWS, Azure, or GCP with fault-tolerance."
+Data	Databases	Relational	MySQL	https://www.mysql.com/	"MySQL Database Service is a fully managed database service to deploy cloud-native applications."
+Data	Databases	Relational	MariaDB	https://mariadb.org/	"The open source relational database."
+Data	Databases	Relational	PostgreSQL	https://www.postgresql.org/	"PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance."
+Data	Databases	NoSQL	MongoDB	https://www.mongodb.com/	"A document-based, distributed database built to handle the data of any application you're building."
