@@ -128,3 +128,5 @@ Data	Databases	Relational	MySQL	https://www.mysql.com/	"MySQL Database Service i
 Data	Databases	Relational	MariaDB	https://mariadb.org/	"The open source relational database."
 Data	Databases	Relational	PostgreSQL	https://www.postgresql.org/	"PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance."
 Data	Databases	NoSQL	MongoDB	https://www.mongodb.com/	"A document-based, distributed database built to handle the data of any application you're building."
+Data	Notebooks	General	Jupyter	https://jupyter.org/	"Project Jupyter exists to develop open-source software, open-standards, and services for interactive computing across dozens of programming languages."			
+Data	Notebooks	General	Databricks	https://databricks.com/	"Powered by Delta Lake, Databricks combines the best of data warehouses and data lakes into a lakehouse architecture, giving you one platform to collaborate on all of your data, analytics and AI workloads."			
