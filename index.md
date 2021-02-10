@@ -35,7 +35,8 @@ Have a question?  Just shoot us an [email](mailto:info@coderx.io).
 * [DailyMed Guide](/guides/dailymed)
 
 ## Resources
-* [General Resources](/resources/general)
+* [Coding Resources](/resources/coding)
+* [Health Tech Resources](/resources/health-tech)
 
 ## Posts
 <ul class="posts">

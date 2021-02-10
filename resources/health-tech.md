@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Coding Resources
-description: Resources curated for coding in general, and also as it relates to health tech.
+title: Health Tech Resources
+description: Resources curated for health tech.
 parent: Resources
-nav_order: 1
+nav_order: 3
 ---
 
-# Coding Resources
+# Health Tech Resources
 {: .no_toc }
 
 ## Table of contents
@@ -16,8 +16,8 @@ nav_order: 1
 {:toc}
 
 ---
-
-{% assign resources = site.data.resources | where: 'page', 'Coding' | sort: 'category' %}
+ 
+{% assign resources = site.data.resources | where: 'page', 'Health Tech' | sort: 'category' %}
 {% assign categories = resources | map: 'category' | uniq | sort_natural %}
 
 <div>
@@ -36,3 +36,4 @@ nav_order: 1
   ---
 {% endfor %}
 </div>
+ 

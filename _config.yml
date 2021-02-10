@@ -27,6 +27,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://coderx.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  coderxio
 
+port: 4001
+
 permalink: /posts/:title
 
 # Build settings
@@ -47,6 +49,9 @@ aux_links:
     - "//join.slack.com/t/coderx/shared_invite/zt-5b8e9kr4-PsKAVe4crGmECQyyxDIJgQ"
 
 ga_tracking: UA-177875360-1
+
+kramdown:
+  parse_block_html: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

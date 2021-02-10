@@ -17,8 +17,22 @@ nav_order: 2
 
 ---
 
-## SQL
+{% assign resources = site.data.resources | where: 'page', 'Data' | sort: 'category' %}
+{% assign categories = resources | map: 'category' | uniq | sort_natural %}
 
-## Programming languages
-
-## Data sources
+<div>
+{% for category in categories %}
+## {{ category }}
+  {% assign subcategories = resources | where: 'category', category | map: 'subcategory' | uniq | sort_natural %}
+  {% for subcategory in subcategories %}
+### {{ subcategory }}
+    {% assign subcategory_resources = resources | where: 'category', category | where: 'subcategory', subcategory | sort: 'name' %}
+| Link | Description |
+| :--- | :---------- |
+    {% for resource in subcategory_resources -%}
+| [{{ resource.name }}]({{ resource.url }}) | {{ resource.tagline }} |
+    {% endfor -%}
+  {% endfor %}
+  ---
+{% endfor %}
+</div>
