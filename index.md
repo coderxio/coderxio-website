@@ -36,6 +36,7 @@ Have a question?  Just shoot us an [email](mailto:info@coderx.io).
 
 ## Resources
 * [Coding Resources](/resources/coding)
+* [Data Resources](/resources/data)
 * [Health Tech Resources](/resources/health-tech)
 
 ## Posts
