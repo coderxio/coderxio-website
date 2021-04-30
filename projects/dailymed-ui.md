@@ -3,7 +3,7 @@ layout: default
 title: DailyMed UI Project
 description: A UI to interact with our novel DailyMed API, as well as other APIs.
 parent: Projects
-nav_order: 2
+nav_order: 3
 ---
 
 # DailyMed UI Project

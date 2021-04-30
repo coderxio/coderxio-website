@@ -4,6 +4,7 @@ title: OpenFDA Guide
 description: A guide to using OpenFDA as a data source for drug label information.
 parent: Guides
 nav_order: 3
+nav_exclude: true
 ---
 
 # OpenFDA Guide
