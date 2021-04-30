@@ -2,7 +2,7 @@
 layout: default
 title: RxNorm Guide
 description: A guide to using RxNorm as a data source for drug information.
-parent: Guides
+#parent: Guides
 nav_order: 2
 nav_exclude: true
 ---
