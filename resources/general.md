@@ -21,16 +21,21 @@ nav_order: 4
 {% assign categories = resources | map: 'category' | uniq | sort_natural %}
 
 <div>
+{% assign today = site.time | date: '%s' %}
 {% for category in categories %}
 ## {{ category }}
   {% assign subcategories = resources | where: 'category', category | map: 'subcategory' | uniq | sort_natural %}
   {% for subcategory in subcategories %}
 ### {{ subcategory }}
     {% assign subcategory_resources = resources | where: 'category', category | where: 'subcategory', subcategory | sort: 'name' %}
+    {% assign start = resource.date | date: '%s' %}
+    {% assign secondsSince = today | minus: start %}
+    {% assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60 %}
+    {% assign daysSince = hoursSince | divided_by: 24 %}
 | Link | Description |
 | :--- | :---------- |
     {% for resource in subcategory_resources -%}
-| [{{ resource.name }}]({{ resource.url }}) | {{ resource.tagline }} |
+| {% if daysSince <= 10 %}<span class="label label-green v-align-top">NEW</span> {% endif %}[{{ resource.name }}]({{ resource.url }}) | {{ resource.tagline }} |
     {% endfor -%}
   {% endfor %}
   ---
