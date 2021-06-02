@@ -28,14 +28,10 @@ nav_order: 4
   {% for subcategory in subcategories %}
 ### {{ subcategory }}
     {% assign subcategory_resources = resources | where: 'category', category | where: 'subcategory', subcategory | sort: 'name' %}
-    {% assign start = resource.date | date: '%s' %}
-    {% assign secondsSince = today | minus: start %}
-    {% assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60 %}
-    {% assign daysSince = hoursSince | divided_by: 24 %}
 | Link | Description |
 | :--- | :---------- |
-    {% for resource in subcategory_resources -%}
-| {% if daysSince <= 10 %}<span class="label label-green v-align-top">NEW</span> {% endif %}[{{ resource.name }}]({{ resource.url }}) | {{ resource.tagline }} |
+    {% for resource in subcategory_resources -%}      
+| [{{ resource.name }}]({{ resource.url }}) | {% assign start = resource.date | date: '%s' %}{% assign secondsSince = today | minus: start %}{% assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60 %}{% assign daysSince = hoursSince | divided_by: 24 %}{% if daysSince <= 10 %}<span class="label label-green v-align-top">NEW</span>{% endif %}{{ resource.tagline }} |
     {% endfor -%}
   {% endfor %}
   ---
