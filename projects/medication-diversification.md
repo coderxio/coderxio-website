@@ -20,6 +20,8 @@ An open source project to generate more realistic medication data in Synthea™.
 ---
 
 ## 🏆 First place winners of the ONC Synthetic Health Data Challenge
+Team CodeRx for the Medication Diversification Tool (MDT) submission to the Synthetic Health Data Challenge consists of Joseph LeGrand (team leader), Kent Bridgeman, Kristen Tokunaga, Robert Hodges, Dalton Fabian, and Yevgeny (Eugene) Bulochnik.
+
 Medication Diversification Tool (MDT) links:
 * [Final presentation video - START HERE](https://www.youtube.com/watch?v=9u5BSCWQtJM)
 * [Final presentation paper](https://www.healthit.gov/sites/default/files/page/2021-09/CodeRx_Synthetic_Data_Solution.pdf)
