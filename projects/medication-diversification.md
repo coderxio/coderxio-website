@@ -19,8 +19,25 @@ An open source project to generate more realistic medication data in Synthea.
 
 ---
 
+## 🏆 First place winners of the ONC Synthetic Health Data Challenge
+Medication Diversification Tool (MDT) links:
+* [Final presentation video - START HERE](https://www.youtube.com/watch?v=9u5BSCWQtJM)
+* [Final presentation paper](https://www.healthit.gov/sites/default/files/page/2021-09/CodeRx_Synthetic_Data_Solution.pdf)
+* [CodeRx MDT GitHub repo](https://github.com/coderxio/medication-diversification)
+* [Final presentation Miro board](https://synthetichealth.github.io/module-builder/#asthma)
+* [HealthIT.gov project background](https://www.healthit.gov/topic/scientific-initiatives/pcor/synthetic-health-data-generation-accelerate-patient-centered-outcomes)
+
+Synthea links:
+* [Synthea GitHub repo](https://github.com/synthetichealth/synthea)
+* [Synthea asthma module](https://synthetichealth.github.io/module-builder/#asthma)
+
+Other links:
+* [RxClass](https://mor.nlm.nih.gov/RxClass/)
+* [RxNav](https://mor.nlm.nih.gov/RxNav/)
+* [Medical Expenditure Panel Survey (MEPS)](https://meps.ahrq.gov/mepsweb/about_meps/survey_back.jsp)
+
 ## Getting started
-The CodeRx team has been selected as a finalist and is competing in the [Synthetic Health Data Challenge](https://www.challenge.gov/challenge/synthetic-health-data-challenge/) to improve the quality of the medication data within [Synthea](https://synthea.mitre.org/about).
+The CodeRx team has come in first place in the [Synthetic Health Data Challenge](https://www.challenge.gov/challenge/synthetic-health-data-challenge/) for the Medication Diversification Tool that aims to improve the quality of the medication data within [Synthea](https://synthea.mitre.org/about).
 
 Synthea generates open source synthetic patient records from birth to death. The problem we are trying to solve is how to make the medication selection in these populations more diverse and realistic. For instance, 100% of patients who have hypothyroidism are prescribed the same exact strength of generic levothyroxine. We hope to show how we can use open source tools and data to increase the diversity of medication selection in this population and to better represent a realistic patient population in the US.
 

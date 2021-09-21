@@ -17,6 +17,15 @@ CodeRx is a collective of pharmacists and other healthcare professionals who hav
 [Join the Slack](https://join.slack.com/t/coderx/shared_invite/zt-5b8e9kr4-PsKAVe4crGmECQyyxDIJgQ){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Read the Newsletter](https://coderxio.substack.com/){: .btn .fs-5 .mb-4 .mb-md-0 }
 ---
 
+<div class="px-5 py-5 mt-5 bg-grey-lt-000">
+## 🏆 First place winners of the ONC Synthetic Health Data Challenge
+**Breaking news 9/21/2021**{: .text-blue-100 }
+
+Six members of CodeRx won a coding challenge hosted by the Office of the National Coordinator for Health IT (ONC) to further the development of Synthea™, a synthetic health data engine. We focused on improving the diversity of the medications prescribed to the synthetic patients to more realistically represent the US patient population.
+
+[Find out more](/projects/medication-diversification){: .btn .btn-blue }
+</div>
+
 ## Getting started
 If you're new to health tech and wondering how to get started, join our [Slack](https://join.slack.com/t/coderx/shared_invite/zt-5b8e9kr4-PsKAVe4crGmECQyyxDIJgQ) and introduce yourself. There's a vibrant community that you can learn from and contribute to.
 
