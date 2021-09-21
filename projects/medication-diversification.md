@@ -27,7 +27,7 @@ Medication Diversification Tool (MDT) links:
 * [Final presentation Miro board](https://synthetichealth.github.io/module-builder/#asthma)
 
 Challenge winner announcements:
-* [U.S. Department of Health and Human Services (HHS)][https://www.hhs.gov/about/news/2021/09/21/hhs-announces-synthetic-health-data-challenge-winners.html]
+* [U.S. Department of Health and Human Services (HHS)](https://www.hhs.gov/about/news/2021/09/21/hhs-announces-synthetic-health-data-challenge-winners.html)
 * [HealthIT.gov](https://www.healthit.gov/topic/scientific-initiatives/pcor/synthetic-health-data-generation-accelerate-patient-centered-outcomes)
 
 Synthea links:
