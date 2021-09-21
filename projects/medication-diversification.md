@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Medication Diversification Project
-description: An open source project to generate more realistic medication data in Synthea.
+description: An open source project to generate more realistic medication data in Synthea™.
 parent: Projects
 nav_order: 1
 ---
 
 # Medication Diversification Project
 {: .no_toc }
-An open source project to generate more realistic medication data in Synthea.
+An open source project to generate more realistic medication data in Synthea™.
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -31,8 +31,9 @@ Challenge winner announcements:
 * [HealthIT.gov](https://www.healthit.gov/topic/scientific-initiatives/pcor/synthetic-health-data-generation-accelerate-patient-centered-outcomes)
 
 Synthea links:
-* [Synthea GitHub repo](https://github.com/synthetichealth/synthea)
-* [Synthea asthma module](https://synthetichealth.github.io/module-builder/#asthma)
+* [Synthea™ website](https://synthetichealth.github.io/synthea/)
+* [Synthea™ GitHub repo](https://github.com/synthetichealth/synthea)
+* [Synthea™ asthma module](https://synthetichealth.github.io/module-builder/#asthma)
 
 Other links:
 * [RxClass](https://mor.nlm.nih.gov/RxClass/)
@@ -40,9 +41,9 @@ Other links:
 * [Medical Expenditure Panel Survey (MEPS)](https://meps.ahrq.gov/mepsweb/about_meps/survey_back.jsp)
 
 ## Getting started
-The CodeRx team has come in first place in the [Synthetic Health Data Challenge](https://www.challenge.gov/challenge/synthetic-health-data-challenge/) for the Medication Diversification Tool that aims to improve the quality of the medication data within [Synthea](https://synthea.mitre.org/about).
+The CodeRx team has come in first place in the [Synthetic Health Data Challenge](https://www.challenge.gov/challenge/synthetic-health-data-challenge/) for the Medication Diversification Tool that aims to improve the quality of the medication data within [Synthea™](https://synthea.mitre.org/about).
 
-Synthea generates open source synthetic patient records from birth to death. The problem we are trying to solve is how to make the medication selection in these populations more diverse and realistic. For instance, 100% of patients who have hypothyroidism are prescribed the same exact strength of generic levothyroxine. We hope to show how we can use open source tools and data to increase the diversity of medication selection in this population and to better represent a realistic patient population in the US.
+Synthea™ generates open source synthetic patient records from birth to death. The problem we are trying to solve is how to make the medication selection in these populations more diverse and realistic. For instance, 100% of patients who have hypothyroidism are prescribed the same exact strength of generic levothyroxine. We hope to show how we can use open source tools and data to increase the diversity of medication selection in this population and to better represent a realistic patient population in the US.
 
 ## Example diagram
 Current state versus with the medication diversification tool for a hypothyroidism use case.
