@@ -19,7 +19,6 @@ CodeRx is a collective of pharmacists and other healthcare professionals who hav
 
 <div class="px-5 py-5 mt-5 bg-grey-lt-000">
 ## 🏆 First place winners of the ONC Synthetic Health Data Challenge
-**Breaking news 9/21/2021**{: .text-blue-100 }
 
 Six members of CodeRx won a coding challenge hosted by the Office of the National Coordinator for Health IT (ONC) to further the development of Synthea™, a synthetic health data engine. We focused on improving the diversity of the medications prescribed to the synthetic patients to more realistically represent the US patient population.
 

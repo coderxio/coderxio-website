@@ -23,10 +23,11 @@ An open source project to generate more realistic medication data in Synthea™.
 Team CodeRx for the Medication Diversification Tool (MDT) submission to the Synthetic Health Data Challenge consists of Joseph LeGrand (team leader), Kent Bridgeman, Kristen Tokunaga, Robert Hodges, Dalton Fabian, and Yevgeny (Eugene) Bulochnik.
 
 Medication Diversification Tool (MDT) links:
-* [Final presentation video - START HERE](https://www.youtube.com/watch?v=9u5BSCWQtJM)
+* [Winning solutions webinar - START HERE](https://youtu.be/gNBv5TFHRac?t=318)
+* [Final presentation video](https://www.youtube.com/watch?v=9u5BSCWQtJM)
 * [Final presentation paper](https://www.healthit.gov/sites/default/files/page/2021-09/CodeRx_Synthetic_Data_Solution.pdf)
 * [CodeRx MDT GitHub repo](https://github.com/coderxio/medication-diversification)
-* [Final presentation Miro board](https://synthetichealth.github.io/module-builder/#asthma)
+* [Final presentation Miro board](https://miro.com/app/board/o9J_lBv0J60=/)
 
 Challenge winner announcements:
 * [U.S. Department of Health and Human Services (HHS)](https://www.hhs.gov/about/news/2021/09/21/hhs-announces-synthetic-health-data-challenge-winners.html)
