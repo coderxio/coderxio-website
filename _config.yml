@@ -32,8 +32,8 @@ port: 4001
 permalink: /posts/:title
 
 # Build settings
-#remote_theme: just-the-docs/just-the-docs
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
+#theme: just-the-docs
 color_scheme: coderx-light
 
 plugins:
