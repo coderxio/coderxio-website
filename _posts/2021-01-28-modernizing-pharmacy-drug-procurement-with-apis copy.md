@@ -11,6 +11,7 @@ published: true
 ---
 
 ![Drug procurement header](/assets/images/drug-procurement-header.jpg)
+
 *Photo by National Cancer Institute*
 {: .fs-2}
 

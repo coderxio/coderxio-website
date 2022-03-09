@@ -2,6 +2,7 @@
 layout: post
 title:  "Why build a DailyMed API?"
 author: Joey LeGrand
+image: /assets/images/revlimid-inactive-ingredients.png
 date:   2020-09-04 07:30:00 -0600
 categories: dailymed-api
 tags: dailymed api

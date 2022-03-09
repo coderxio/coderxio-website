@@ -2,6 +2,7 @@
 layout: post
 title:  "Work smarter not harder: Extracting 40,000 DailyMed labels"
 author: Joey LeGrand
+image: /assets/images/dailymed-full-release.jpg
 date:   2020-09-12 07:30:00 -0600
 categories: dailymed-api
 tags: dailymed api python

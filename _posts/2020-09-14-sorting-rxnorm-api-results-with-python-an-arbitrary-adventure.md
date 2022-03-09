@@ -2,11 +2,13 @@
 layout: post
 title:  "Sorting RxNorm API results with Python: An arbitrary adventure"
 author: Joey LeGrand
+image: /assets/images/noone-meme.jpg
 date:   2020-09-14 07:00:00 -0600
 categories: rxnorm
 tags: rxnorm api python
 published: true
 ---
+
 ![meme](/assets/images/noone-meme.jpg)
 
 I am sharing this because I jokingly told someone on a pharmacist Slack channel that it would be a good idea for a valuable, worthwhile pharmacy informatics resident project to sort all medications based on number of vowels and they took me seriously. I felt bad because I didn't want to waste that resident's time.  Obviously there is zero face value in this type of list, but part of me still thought it was kind of a good exercise to get familiar with the RxNorm APIs and some basic Python sorting and CSV exporting functionality. So, as a sort of penance, I wrote the script myself.
