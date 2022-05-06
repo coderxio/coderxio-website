@@ -48,6 +48,9 @@ The CodeRx team has come in first place in the [Synthetic Health Data Challenge]
 
 Synthea™ generates open source synthetic patient records from birth to death. The problem we are trying to solve is how to make the medication selection in these populations more diverse and realistic. For instance, 100% of patients who have hypothyroidism are prescribed the same exact strength of generic levothyroxine. We hope to show how we can use open source tools and data to increase the diversity of medication selection in this population and to better represent a realistic patient population in the US.
 
+## Tip sheet
+[Download the tip sheet](/assets/files/coderx_mdt_tip_sheet.pdf) to create your own realistic pediatric asthma medication data using CodeRx MDT and Synthea™.
+
 ## Example diagram
 Current state versus with the medication diversification tool for a hypothyroidism use case.
 
