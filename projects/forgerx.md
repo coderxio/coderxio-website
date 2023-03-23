@@ -1,17 +1,15 @@
 ---
 layout: default
-title: Medication Diversification Project
-description: An open source project to generate more realistic medication data in Synthea™.
-nav_exclude: true
+title: ForgeRx
+description: Input robust medication settings, output synthetic medication data modules.
+parent: Projects
+nav_order: 2
 ---
 
-# Medication Diversification Project
+# 🔥 ForgeRx
 {: .no_toc }
-An open source project to generate more realistic medication data in Synthea™.
+Input robust medication settings, output synthetic medication data modules.
 {: .fs-6 .fw-300 }
-
-{: .warning }
-This page has been archived and information may be outdated because the project has been renamed to ForgeRx. Please go to the [ForgeRx project page](/projects/forgerx) for more up to date information about this work.
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -20,30 +18,6 @@ This page has been archived and information may be outdated because the project 
 {:toc}
 
 ---
-
-## 🏆 First place winners of the ONC Synthetic Health Data Challenge
-Team CodeRx for the Medication Diversification Tool (MDT) submission to the Synthetic Health Data Challenge consists of Joseph LeGrand (team leader), Kent Bridgeman, Kristen Tokunaga, Robert Hodges, Dalton Fabian, and Yevgeny (Eugene) Bulochnik.
-
-Medication Diversification Tool (MDT) links:
-* [Winning solutions webinar - START HERE](https://youtu.be/gNBv5TFHRac?t=318)
-* [Final presentation video](https://www.youtube.com/watch?v=9u5BSCWQtJM)
-* [Final presentation paper](https://www.healthit.gov/sites/default/files/page/2021-09/CodeRx_Synthetic_Data_Solution.pdf)
-* [CodeRx MDT GitHub repo](https://github.com/coderxio/medication-diversification)
-* [Final presentation Miro board](https://miro.com/app/board/o9J_lBv0J60=/)
-
-Challenge winner announcements:
-* [U.S. Department of Health and Human Services (HHS)](https://www.hhs.gov/about/news/2021/09/21/hhs-announces-synthetic-health-data-challenge-winners.html)
-* [HealthIT.gov](https://www.healthit.gov/topic/scientific-initiatives/pcor/synthetic-health-data-generation-accelerate-patient-centered-outcomes)
-
-Synthea links:
-* [Synthea™ website](https://synthetichealth.github.io/synthea/)
-* [Synthea™ GitHub repo](https://github.com/synthetichealth/synthea)
-* [Synthea™ asthma module](https://synthetichealth.github.io/module-builder/#asthma)
-
-Other links:
-* [RxClass](https://mor.nlm.nih.gov/RxClass/)
-* [RxNav](https://mor.nlm.nih.gov/RxNav/)
-* [Medical Expenditure Panel Survey (MEPS)](https://meps.ahrq.gov/mepsweb/about_meps/survey_back.jsp)
 
 ## Getting started
 The CodeRx team has come in first place in the [Synthetic Health Data Challenge](https://www.challenge.gov/challenge/synthetic-health-data-challenge/) for the Medication Diversification Tool that aims to improve the quality of the medication data within [Synthea™](https://synthea.mitre.org/about).
@@ -66,3 +40,26 @@ The Challenge was conducted under ONC's Synthetic Health Data Generation to Acce
 "The availability of realistic, synthetic data is a vital part of supporting iterative testing models and early stage research and product development," said Steve Posnack, deputy national coordinator for health information technology. "We received a lot of inspired submissions that took this work to the next level and hope that each winner can serve as a foundation to further enhance tools that create synthetic data."
 
 Source: [HHS](https://www.hhs.gov/about/news/2021/09/21/hhs-announces-synthetic-health-data-challenge-winners.html)
+
+## Resources
+
+Medication Diversification Tool (MDT) links:
+* [Winning solutions webinar - START HERE](https://youtu.be/gNBv5TFHRac?t=318)
+* [Final presentation video](https://www.youtube.com/watch?v=9u5BSCWQtJM)
+* [Final presentation paper](https://www.healthit.gov/sites/default/files/page/2021-09/CodeRx_Synthetic_Data_Solution.pdf)
+* [CodeRx MDT GitHub repo](https://github.com/coderxio/medication-diversification)
+* [Final presentation Miro board](https://miro.com/app/board/o9J_lBv0J60=/)
+
+Challenge winner announcements:
+* [U.S. Department of Health and Human Services (HHS)](https://www.hhs.gov/about/news/2021/09/21/hhs-announces-synthetic-health-data-challenge-winners.html)
+* [HealthIT.gov](https://www.healthit.gov/topic/scientific-initiatives/pcor/synthetic-health-data-generation-accelerate-patient-centered-outcomes)
+
+Synthea links:
+* [Synthea™ website](https://synthetichealth.github.io/synthea/)
+* [Synthea™ GitHub repo](https://github.com/synthetichealth/synthea)
+* [Synthea™ asthma module](https://synthetichealth.github.io/module-builder/#asthma)
+
+Other links:
+* [RxClass](https://mor.nlm.nih.gov/RxClass/)
+* [RxNav](https://mor.nlm.nih.gov/RxNav/)
+* [Medical Expenditure Panel Survey (MEPS)](https://meps.ahrq.gov/mepsweb/about_meps/survey_back.jsp)

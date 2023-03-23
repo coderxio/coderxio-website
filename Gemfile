@@ -9,7 +9,7 @@ source "https://rubygems.org"
 # Happy Jekylling!
 #gem "jekyll", "~> 3.9.0"
 # This is the theme the Jekyll site.
-gem "just-the-docs", "~> 0.3.3"
+gem "just-the-docs", "~> 0.4.0"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 gem "github-pages", "~> 209", group: :jekyll_plugins
